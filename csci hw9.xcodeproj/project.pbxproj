@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76215AD51CD95819000E1788 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76215AD41CD95819000E1788 /* DetailController.swift */; };
+		764546E11CD9FD4F00BF279D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764546E01CD9FD4F00BF279D /* CustomCell.swift */; };
+		764546E31CDAF6DC00BF279D /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764546E21CDAF6DC00BF279D /* NewsController.swift */; };
+		764546E91CDB018F00BF279D /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764546E81CDB018F00BF279D /* NewsCell.swift */; };
+		764546EC1CDB348400BF279D /* ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764546EB1CDB348400BF279D /* ChartController.swift */; };
+		764546EE1CDB366A00BF279D /* chart in Resources */ = {isa = PBXBuildFile; fileRef = 764546ED1CDB366A00BF279D /* chart */; };
+		764546F11CDBA97D00BF279D /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 764546EF1CDBA97D00BF279D /* CoreDataModel.xcdatamodeld */; };
+		764546F31CDBBC6C00BF279D /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764546F21CDBBC6C00BF279D /* InfoCell.swift */; };
+		764546F71CDC228100BF279D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764546F61CDC228100BF279D /* FBSDKCoreKit.framework */; };
 		764995951CC74A1E000A92C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764995941CC74A1E000A92C4 /* AppDelegate.swift */; };
 		764995971CC74A1E000A92C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764995961CC74A1E000A92C4 /* ViewController.swift */; };
 		7649959A1CC74A1E000A92C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764995981CC74A1E000A92C4 /* Main.storyboard */; };
 		7649959C1CC74A1E000A92C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7649959B1CC74A1E000A92C4 /* Assets.xcassets */; };
 		7649959F1CC74A1E000A92C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7649959D1CC74A1E000A92C4 /* LaunchScreen.storyboard */; };
+		76CCDEE91CDC2A5300014B81 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CCDEE81CDC2A5300014B81 /* FBSDKLoginKit.framework */; };
+		76CCDEEB1CDC2A6200014B81 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CCDEEA1CDC2A6200014B81 /* FBSDKShareKit.framework */; };
+		76CCDEED1CDC2A7400014B81 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CCDEEC1CDC2A7400014B81 /* Bolts.framework */; };
+		F4B881401A0E61D4D4FEE013 /* Pods_csci_hw9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C15E8FF95425756044FBE8 /* Pods_csci_hw9.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B9A830EFD710D16FC2CD5B6 /* Pods-csci hw9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csci hw9.release.xcconfig"; path = "Pods/Target Support Files/Pods-csci hw9/Pods-csci hw9.release.xcconfig"; sourceTree = "<group>"; };
+		76215AD41CD95819000E1788 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		764546E01CD9FD4F00BF279D /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		764546E21CDAF6DC00BF279D /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		764546E81CDB018F00BF279D /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		764546EB1CDB348400BF279D /* ChartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartController.swift; sourceTree = "<group>"; };
+		764546ED1CDB366A00BF279D /* chart */ = {isa = PBXFileReference; lastKnownFileType = folder; name = chart; path = ../chart; sourceTree = "<group>"; };
+		764546F01CDBA97D00BF279D /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		764546F21CDBBC6C00BF279D /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		764546F61CDC228100BF279D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		764995911CC74A1E000A92C4 /* csci hw9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "csci hw9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764995941CC74A1E000A92C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764995961CC74A1E000A92C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,11 @@
 		7649959B1CC74A1E000A92C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7649959E1CC74A1E000A92C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		764995A01CC74A1E000A92C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CCDEE81CDC2A5300014B81 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		76CCDEEA1CDC2A6200014B81 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		76CCDEEC1CDC2A7400014B81 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		D681F6A0EE1218447FF4AFEB /* Pods-csci hw9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csci hw9.debug.xcconfig"; path = "Pods/Target Support Files/Pods-csci hw9/Pods-csci hw9.debug.xcconfig"; sourceTree = "<group>"; };
+		F6C15E8FF95425756044FBE8 /* Pods_csci_hw9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_csci_hw9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CCDEED1CDC2A7400014B81 /* Bolts.framework in Frameworks */,
+				76CCDEEB1CDC2A6200014B81 /* FBSDKShareKit.framework in Frameworks */,
+				F4B881401A0E61D4D4FEE013 /* Pods_csci_hw9.framework in Frameworks */,
+				764546F71CDC228100BF279D /* FBSDKCoreKit.framework in Frameworks */,
+				76CCDEE91CDC2A5300014B81 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,8 @@
 			children = (
 				764995931CC74A1E000A92C4 /* csci hw9 */,
 				764995921CC74A1E000A92C4 /* Products */,
+				95D75A6FDE42188A7C107A4A /* Pods */,
+				8B4D97436F45DAB8E8CDAC67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +91,41 @@
 			children = (
 				764995941CC74A1E000A92C4 /* AppDelegate.swift */,
 				764995961CC74A1E000A92C4 /* ViewController.swift */,
+				76215AD41CD95819000E1788 /* DetailController.swift */,
+				764546EB1CDB348400BF279D /* ChartController.swift */,
+				764546E21CDAF6DC00BF279D /* NewsController.swift */,
+				764546E01CD9FD4F00BF279D /* CustomCell.swift */,
+				764546E81CDB018F00BF279D /* NewsCell.swift */,
+				764546F21CDBBC6C00BF279D /* InfoCell.swift */,
 				764995981CC74A1E000A92C4 /* Main.storyboard */,
 				7649959B1CC74A1E000A92C4 /* Assets.xcassets */,
+				764546ED1CDB366A00BF279D /* chart */,
 				7649959D1CC74A1E000A92C4 /* LaunchScreen.storyboard */,
 				764995A01CC74A1E000A92C4 /* Info.plist */,
+				764546EF1CDBA97D00BF279D /* CoreDataModel.xcdatamodeld */,
 			);
 			path = "csci hw9";
+			sourceTree = "<group>";
+		};
+		8B4D97436F45DAB8E8CDAC67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76CCDEEC1CDC2A7400014B81 /* Bolts.framework */,
+				76CCDEEA1CDC2A6200014B81 /* FBSDKShareKit.framework */,
+				76CCDEE81CDC2A5300014B81 /* FBSDKLoginKit.framework */,
+				764546F61CDC228100BF279D /* FBSDKCoreKit.framework */,
+				F6C15E8FF95425756044FBE8 /* Pods_csci_hw9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95D75A6FDE42188A7C107A4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D681F6A0EE1218447FF4AFEB /* Pods-csci hw9.debug.xcconfig */,
+				2B9A830EFD710D16FC2CD5B6 /* Pods-csci hw9.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764995A31CC74A1E000A92C4 /* Build configuration list for PBXNativeTarget "csci hw9" */;
 			buildPhases = (
+				8756C003E9B2D1B1C682F645 /* Check Pods Manifest.lock */,
 				7649958D1CC74A1E000A92C4 /* Sources */,
 				7649958E1CC74A1E000A92C4 /* Frameworks */,
 				7649958F1CC74A1E000A92C4 /* Resources */,
+				BB055340942DA37DD510CC50 /* Embed Pods Frameworks */,
+				611F15EF912EA8E320279306 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +163,7 @@
 				TargetAttributes = {
 					764995901CC74A1E000A92C4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 66JV3NHQNV;
 					};
 				};
 			};
@@ -125,10 +193,59 @@
 				7649959F1CC74A1E000A92C4 /* LaunchScreen.storyboard in Resources */,
 				7649959C1CC74A1E000A92C4 /* Assets.xcassets in Resources */,
 				7649959A1CC74A1E000A92C4 /* Main.storyboard in Resources */,
+				764546EE1CDB366A00BF279D /* chart in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		611F15EF912EA8E320279306 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-csci hw9/Pods-csci hw9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8756C003E9B2D1B1C682F645 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB055340942DA37DD510CC50 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-csci hw9/Pods-csci hw9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7649958D1CC74A1E000A92C4 /* Sources */ = {
@@ -136,6 +253,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				764995971CC74A1E000A92C4 /* ViewController.swift in Sources */,
+				76215AD51CD95819000E1788 /* DetailController.swift in Sources */,
+				764546E11CD9FD4F00BF279D /* CustomCell.swift in Sources */,
+				764546E31CDAF6DC00BF279D /* NewsController.swift in Sources */,
+				764546E91CDB018F00BF279D /* NewsCell.swift in Sources */,
+				764546F31CDBBC6C00BF279D /* InfoCell.swift in Sources */,
+				764546EC1CDB348400BF279D /* ChartController.swift in Sources */,
+				764546F11CDBA97D00BF279D /* CoreDataModel.xcdatamodeld in Sources */,
 				764995951CC74A1E000A92C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,23 +371,35 @@
 		};
 		764995A41CC74A1E000A92C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D681F6A0EE1218447FF4AFEB /* Pods-csci hw9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/andylsn/Documents/FacebookSDK;
 				INFOPLIST_FILE = "csci hw9/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shunnili.csci-hw9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		764995A51CC74A1E000A92C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9A830EFD710D16FC2CD5B6 /* Pods-csci hw9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/andylsn/Documents/FacebookSDK;
 				INFOPLIST_FILE = "csci hw9/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shunnili.csci-hw9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,8 +422,22 @@
 				764995A51CC74A1E000A92C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		764546EF1CDBA97D00BF279D /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				764546F01CDBA97D00BF279D /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 764546F01CDBA97D00BF279D /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 764995891CC74A1E000A92C4 /* Project object */;
 }
